@@ -1,0 +1,21 @@
+# Dataset (large binary files — download via fast_cifar_download.py)
+data/
+
+# Trained model weights (large — download from releases or retrain)
+checkpoints/*.pth
+
+# Keep training history JSONs (small, useful for reproducibility)
+!checkpoints/history_plain.json
+!checkpoints/history_resnet.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Scratch / temp
+scratch/
+
+# OS
+.DS_Store
